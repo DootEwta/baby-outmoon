@@ -665,7 +665,7 @@ end
 
 function CreateNewButton(ButtonConfig, Parent)
 	local ButtonText = ButtonConfig.Text or "nil button"
-	local ButtonCallback = ButtonConfig.Callback or function() print("nil button") end
+	local ButtonCallback = ButtonConfig.Callback or function() end
 	local Menu = ButtonConfig.Menu or {}
 
 	local Button = Objects.new("SmoothButton")
